@@ -1,0 +1,66 @@
+body{
+    background-image: url('nature5.jpg');
+    background-size: 1200px 225px;
+    background-repeat: no-repeat;
+
+}
+.p{
+    text-align:center;
+    color: white;
+}
+.h1{
+    font-size:50px;
+    margin-top: 0px;
+    font-family: 'Bell MT';
+    top: 0px;
+    line-height: 0px;
+}
+.second{
+    border:2px black;
+    padding: 2px;
+    color: white;
+    background-color: green;
+    height:30px;
+    width:200px;
+    left:500px;
+    margin-left:400px;
+    margin-top:60px;
+}
+.third{
+    border:2px black;
+    padding: 2px;
+    color: white;
+    background-color: red;
+    height:30px;
+    width:200px;
+    margin-left:400px;
+    margin-top:15px;
+}
+.form{
+    border:2px whitesmoke;
+    padding: 2px;
+    color: wheat;
+    background-color: rgb(221, 202, 238);
+    height:30px;
+    width:1500px;
+    top:0px;
+    margin-top:0px;
+}
+.select{
+    right:5px;
+    margin-right:5px;
+    top:2px;
+    margin-top:0px;
+    margin-left:300px;
+}
+button{
+    background-color: azure;
+    text-color:white;
+    border: 0px ;
+}
+.income{
+    color: green;
+}
+.expenses{
+    color: red;
+}

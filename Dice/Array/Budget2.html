@@ -1,0 +1,30 @@
+<!Doctype html>
+<head>
+    <title> Budget Calculator</title>
+    <link rel="stylesheet" href="Budget.css" type="text/css">
+</head>
+<body background="nature11.jpg">
+<p class="p">
+    Available Budget in December 2023
+</p>
+<h1 class="p h1" id="totalAmount">+0.00</h1>
+<p class="p second" id="income">INCOME           +0.00 </p>
+<p class="p third" id="expenses">EXPENSES           +0.00 </p>
+<form class="form">
+<select name="signs" class="select">
+    <option class="subtract" value="exp" selected>-</option>
+    <option class="add" value="inc">+</option>
+    </select>
+    <input type="text" placeholder="Add description" class="textarea"></textarea>
+    <input type="number" placeholder="Value" class="value"></textarea>
+    <button class="btn">DONE</button>
+</form>
+<table width="100%">
+    <th class="income">INCOME</th>
+    <div class="income_list"></div>
+    <th class="expenses">EXPENSES</th>
+    <div class="expenses_list"></div>
+</table>
+
+<script src="Budget.js"></script>
+</body>
